@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Div id="fram">
+        <form action="">
+            <div id="h1">
+                <h1>SỞ THÍCH CỬA BẠN LÀ GÌ</h1>
+            </div>
+            <table id="table">
+                <tr>
+                    <td class="td1">Họ và tên</td>
+                    <td><input type="text"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="td1">Email</td>
+                    <td><input type="text"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="td1">Sở thích</td>
+                    <td>
+                        <lable><input type="checkbox">Thể Thao</lable><br>
+                        <lable><input type="checkbox">Lướt Web</lable><br>
+                        <lable><input type="checkbox">Du Lich</lable>
+                    </td>
+                    <td>
+                        <lable><input type="checkbox">Âm nhạc</lable><br>
+                        <lable><input type="checkbox">Chơi game</lable><br>
+                    </td>
+                    <td>
+                        <lable><input type="checkbox">Đọc sách</lable><br>
+                        <lable><input type="checkbox">Điện ảnh</lable>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button>Gửi thông tin</button>
+                        <button>Nhập lại</button>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            
+        </form>
+    </Div>
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    #fram {
+        width: 550px;
+        height: 190px;
+        border: 10px solid aqua;
+    }
+    #h1 {
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+        height: 50px;
+    }
+    #h1 h1 {
+        line-height: 50px;
+    }
+    #table {
+        width: 100%;
+        margin-top: 10px;
+    }
+    #table tr td {
+        border: solid 1px white;
+    }
+    #table tr td.td1 {
+        color: blue;
+        text-align: right;
+        padding-right: 10px;
+    }
+    #table tr td lable {
+        color: red;
+    }
+</style>
+</html>
