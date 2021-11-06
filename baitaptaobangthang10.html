@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng tháng 10</title>
+    <style>
+        #table {
+            width: 630px;
+            height: 400px;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        #table tr th {
+            color: blue;
+            width: 90px;
+        }
+        #table tr td {
+            width: 90px;
+        }
+        #table tr#row1 td {
+            background-color: orange;
+            border: 1px solid white;
+            color: white;
+            font-weight: bold;
+        }
+        #table tr#row1 #row11 {
+            background-color: red;
+        }
+        #table tr#row1 #row17 {
+            background-color: blue;
+        }
+        #table tr#row2 #row21 {
+            color: red;
+        }
+        #table tr#row2 #row27 {
+            color: blue;
+        }
+        #table tr.number td {
+            border: 1px solid gray;
+        }
+        #table tr.number td.col1 {
+            color: red;
+        }
+        #table tr.number td.col7 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table id="table">
+        <tr>
+            <th colspan="7"><h1>Tháng 10 - Octorber</h1></th>
+        </tr>
+        <tr id="row1">
+            <td id="row11">C.Nhật</td>
+            <td>T.Hai</td>
+            <td>T.Ba</td>
+            <td>T.Tư</td>
+            <td>T.Năm</td>
+            <td>T.Sáu</td>
+            <td id="row17">T.Bảy</td>
+        </tr>
+        <tr id="row2">
+            <td id="row21">Sun</td>
+            <td>Mon</td>
+            <td>Tue</td>
+            <td>Web</td>
+            <td>Thu</td>
+            <td>Fri</td>
+            <td id="row27">Sat</td>
+        </tr>
+        <tr class="number">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1<sub>13</sub></td>
+            <td>2<sub>14</sub></td>
+            <td class="col7">3 <sub>15</sub></td>
+        </tr>
+        <tr class="number">
+            <td class="col1">4<sub>16</sub></td>
+            <td>5<sub>17</sub></td>
+            <td>6<sub>18</sub></td>
+            <td>7<sub>19</sub></td>
+            <td>8<sub>20</sub></td>
+            <td>9<sub>21</sub></td>
+            <td class="col7">10<sub>22</sub></td>
+        </tr>
+        <tr class="number">
+            <td class="col1">11<sub>23</sub></td>
+            <td>12<sub>24</sub></td>
+            <td>13<sub>25</sub></td>
+            <td>14<sub>26</sub></td>
+            <td>15<sub>27</sub></td>
+            <td>16<sub>28</sub></td>
+            <td class="col7">17 <sub>29</sub></td>
+        </tr>
+        <tr class="number"> 
+            <td class="col1">18 <sub>1.9</sub></td>
+            <td>19<sub>2</sub></td>
+            <td>20<sub>3</sub></td>
+            <td>21<sub>4</sub></td>
+            <td>22<sub>5</sub></td>
+            <td>23<sub>6</sub></td>
+            <td class="col7">24<sub>7</sub></td>
+        </tr>
+        <tr class="number">
+            <td class="col1">25<sub>8</sub></td>
+            <td>26<sub>9</sub></td>
+            <td>27<sub>10</sub></td>
+            <td>28<sub>11</sub></td>
+            <td>29<sub>12</sub></td>
+            <td>30<sub>13</sub></td>
+            <td class="col7">31<sub>14</sub></td>
+        </tr>
+    </table>
+</body>
+</html>
